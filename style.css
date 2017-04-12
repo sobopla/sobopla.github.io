@@ -20,6 +20,9 @@ h1 {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 10px;
+	min-width: 300px !important;
+
+
 
 }
 
@@ -65,4 +68,5 @@ th {
 @media screen and (max-width: 350px) {
   #right-section {
     margin: auto;
+    min-width: 200px;
       }
