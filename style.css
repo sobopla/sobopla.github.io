@@ -3,6 +3,10 @@ body {
 	max-width: 960px
 }
 
+h1 {
+	padding-left: 10px;
+}
+
 #left-section {
 	border: 1px solid blue;
 	display: inline-block;
@@ -15,8 +19,8 @@ body {
 	border: 1px solid black;
 	display: inline-block;
 	vertical-align: top;
-	padding: 10px;
-	margin: auto;
+	padding-left: 10px;
+
 }
 
 img {
@@ -27,19 +31,14 @@ img {
 	margin-right: 10px;
 }
 
-/*@media screen and (max-width: 350px) {
-  #right-section {
-    margin: auto;
-      }
-}*/
 #sizing {
 	width: 100px;
-	background-image: url("https://dl.dropboxusercontent.com/s/ycn67uwuflqezft/fit1.jpg?dl=0");
-	background-size: 200px;
-	background-position: right;
-	background-repeat: no-repeat;
-}
 
+background-image: url("https://dl.dropboxusercontent.com/s/ycn67uwuflqezft/fit1.jpg?dl=0");
+background-size: 200px;
+background-position: right;
+background-repeat: no-repeat;
+}
 table,td,tr {
 
 	border: 1px solid #808080;
@@ -48,16 +47,22 @@ table,td,tr {
 	margin: 5px;
 	
 }
+
 th,td {
 	padding: 5px; 
 	background-color: #dddddd
 	text:left;
 
 }
-
 th { 
 	font-family: cursive;
 	font-size: 2em;
 	background-color: gray;
 
  }
+
+
+@media screen and (max-width: 350px) {
+  #right-section {
+    margin: auto;
+      }
