@@ -1,0 +1,33 @@
+body {
+	display: inline;
+	max-width: 960px
+}
+
+#left-section {
+	border: 1px solid blue;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+#right-section {
+	width: 40%;
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	margin: auto;
+}
+
+img {
+	border: 1px solid red;
+	vertical-align: top;
+	width: 500px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*@media screen and (max-width: 350px) {
+  #right-section {
+    margin: auto;
+      }
+}*/
