@@ -11,9 +11,7 @@ h1 {
 	/*border: 1px solid blue;*/
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 5px
-	margin-left;
-	
+	padding-left: 5px	
 }
 
 #right-section {
@@ -24,8 +22,6 @@ h1 {
 	min-width: 352px; /* !important;*/
 	margin-left: 5px;
 	padding: 5px;
-
-
 }
 
 img {
@@ -38,32 +34,28 @@ img {
 
 #sizing {
 	width: 100px;
-
-background-image: url("https://dl.dropboxusercontent.com/s/ycn67uwuflqezft/fit1.jpg?dl=0");
-background-size: 200px;
-background-position: right;
-background-repeat: no-repeat;
+	background-image: url("https://dl.dropboxusercontent.com/s/ycn67uwuflqezft/fit1.jpg?dl=0");
+	background-size: 200px;
+	background-position: right;
+	background-repeat: no-repeat;
 }
-table,td,tr {
 
+table,td,tr {
 	border: 1px solid #808080;
 	border-collapse: collapse;
 	padding:0px;
-	margin: 0px;
-	
+	margin: 0px;	
 }
 
 th,td {
 	padding: 0px; 
-	background-color: #dddddd
-	text:left;
-
+	background-color: #dddddd;
 }
+
 th { 
 	font-family: cursive;
 	font-size: 2em;
 	background-color: gray;
-
  }
 
  footer {
@@ -82,7 +74,6 @@ th {
 		display: block;
 		margin:0 auto;
 		/*width: 100%;*/
-
 }
 	}
 
