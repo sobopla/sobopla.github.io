@@ -69,6 +69,10 @@ th {
  	padding: 10px;
  }
 
+ #paragraph {
+ 	margin-top: 25px;
+ }
+
 
 /*@media screen and (max-width: 350px) {
   #right-section {
