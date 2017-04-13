@@ -20,7 +20,10 @@ h1 {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 10px;
+
 	min-width: 352px !important;
+
+
 }
 
 img {
@@ -44,7 +47,7 @@ table,td,tr {
 	border: 1px solid #808080;
 	border-collapse: collapse;
 	padding:2px;
-	margin: 5px;
+	margin: 2px;
 	
 }
 
@@ -61,10 +64,15 @@ th {
 
  }
 
+ footer {
+ 	text-align: center;
+ 	padding: 10px;
+ }
 
-@media screen and (max-width: 350px) {
+
+/*@media screen and (max-width: 350px) {
   #right-section {
     margin: auto;
     min-width: 200px;
-      }
-}
+      }*/
+
