@@ -77,6 +77,10 @@ th {
 }
 	}
 
+@media screen and (max-width: 900px) {
+	th {font-size: 1.8em;}
+}
+
 
 @media screen and (max-width: 770px) {
   #right-section {
