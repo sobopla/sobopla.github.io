@@ -4,7 +4,9 @@ body {
 }
 
 h1 {
-	padding-left: 10px;
+	padding-left: 20px;
+	font-size: 3em;
+	margin-left: 50px;
 }
 
 #left-section {
