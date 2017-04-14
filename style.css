@@ -7,6 +7,7 @@ h1 {
 	padding-left: 20px;
 	font-size: 3em;
 	margin-left: 50px;
+	font-family: Gill Sans, sans-serif;
 }
 
 #left-section {
@@ -50,19 +51,23 @@ table,td,tr {
 }
 
 th,td {
-	padding: 0px; 
+	padding: 2px; 
 	background-color: #dddddd;
 }
 
+
 th { 
 	font-family: cursive;
-	font-size: 2em;
+	font-size: 1.8em;
 	background-color: gray;
  }
 
  footer {
  	text-align: center;
  	padding: 10px;
+ 	word-spacing:20px;
+ 	font-family: Gill Sans, sans-serif;
+ 	font-size: 1.5em;
  }
 
  #paragraph {
@@ -80,7 +85,7 @@ th {
 	}
 
 @media screen and (max-width: 900px) {
-	th {font-size: 1.8em;}
+	th {font-size: 1.5em;}
 }
 
 
